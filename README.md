@@ -15,7 +15,7 @@ Start by extracting the contents of the release.
 
 - See `index.html` for example of including JavaScript and CSS assets
 - After the JavaScript import, define the terminal ID using the JavaScript API:
-```js
+```html
     <script type="text/javascript">
       Omnigage.terminal.config({
         terminalId: '<insert-terminal-id>'
