@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2018-06-29
+### Added
+- Added ability to browse engagements, add, edit, and delete (archive).
+- Engagements activities including voice, text, email, and click-to-dial.
+- Engagement workflow including delivery settings, compliance review and submit for processing.
+- Engagement results including queues and metrics.
+- Expanded JavaScript API to include ability to `.show()`: `engagements`, `engagementsAdd`, and `engagementsEdit`
+- JavaScript API `.inputs()` supports `engagementsAdd` and `engagementsEdit` with `name` key/value pair
+- Additional `.config()` options for the JavaScript API including `isAnchored`, `appendTo`, `width`, `height`, `heightCollapsed`, `zIndex`, and `init`
+
 ## [0.1.1] - 2018-06-18
 ### Changed
 - Pruned fonts from build process to reduce overall release archive from 5.6 MB to 3.1 MB.
@@ -16,6 +26,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Voice recordings collection browsing, add, edit and archive. Ability to call yourself to record a message, record natively in browser or upload a recording. Includes revisions and ability to manage collaborators.
 - JavaScript API methods `.ready`, `.config`, `.show` and `.inputs`
 - Embed script for placing application in iframe and exposing the JavaScript API.
+- Engagements collection browsing.
 
+[0.2.0]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.2.0
 [0.1.1]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.1.1
 [0.1.0]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.1.0
