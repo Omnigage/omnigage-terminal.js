@@ -47,6 +47,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Embed script for placing application in iframe and exposing the JavaScript API.
 - Engagements collection browsing.
 
+[0.3.1]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.3.1
+[0.3.0]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.3.0
 [0.2.0]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.2.0
 [0.1.1]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.1.1
 [0.1.0]: https://github.com/omnigage/omnigage-terminal.js/releases/tag/0.1.0
