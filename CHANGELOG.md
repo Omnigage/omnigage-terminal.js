@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.3.1] - 2018-07-20
+### Added
+- Added `.on()` to the JavaScript API for subscribing to `render`, `dial`, `hangup`, `voicemailDrop` and `playDrop` events
+- Added `.perform()` to the JavaScript API for sending the following actions:  `dial`, `hangup`, `voicemailDrop` and `playDrop`
+
+### Changed
+- Renamed JavaScript API config option `show` to `render`
+- Renamed JavaScript API method `show` to `render`
+
 ## [0.3.0] - 2018-07-13
 ### Added
 - Browse caller IDs, add, edit, and delete (archive). Includes collaborators browse, add, edit, and delete.
