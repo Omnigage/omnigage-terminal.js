@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2019-01-15
+### Added
+- Added support for inline add and edit on dialer and engagements to create `caller-ids` and `voice-templates`.
+- Added text templates and email templates including revisions and collaborators. Supported during inline add and edit.
+- Added inbox for centralizing conversations across voice, text and email.
+- Added support for billing plans for disabling functionality not enabled for the account's plan.
+- Added ability to specify `meta` along with a server-side `callback` via `.inputs` for `calls`, `texts` and `emails`.
+
+### Changed
+- On engagement metrics, select single activity by default and hide empty activity tables.
+
+### Fixed
+- Fixed issue where collaborators tab is sometimes not present.
+
 ## [0.5.2] - 2018-10-04
 ### Added
 - When a voice template recording is created using a call, the instance must be saved prior to hanging up the call. Now the temporary recording will persist after hangup continuing to allow the user to save the template.
