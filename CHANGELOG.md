@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6.1] - 2019-02-15
+### Changed
+- Improved the engagement workflow by moving the user to the next step on save. For voice activities, trimmed back UI on the human and machine triggers to improve UX.
+
+### Fixed
+- On voice templates, the country code would appear behind the header. The z-index was corrected.
+
 ## [0.6.0] - 2019-01-15
 ### Added
 - Added support for inline add and edit on dialer and engagements to create `caller-ids` and `voice-templates`.
