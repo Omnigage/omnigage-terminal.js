@@ -13,14 +13,34 @@ Note: The embed code generated when creating a Terminal under account settings i
 
 Start by extracting the contents of the release.
 
-- See `index.html` for example of including JavaScript and CSS assets
-- After the JavaScript import, define the terminal ID using the JavaScript API:
+- Ensure the JavaScript and CSS assets are accessible
+- Include `omnigage-terminal-api.js` (as seen below)
+- Define the terminal ID and URL to the `index.html` file included in the release
+- Call `.init()`
+
+**Example:**
+
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+  </head>
+  <body>
+    <script src="assets/omnigage-terminal-api.js"></script>
     <script type="text/javascript">
-      Omnigage.terminal.config({
-        terminalId: '<insert-terminal-id>'
+      let t = Omnigage.terminal;
+
+      t.config({
+        terminalId: "<insert-your-terminal-id>",
+        url: "index.html",
       });
+
+      t.init();
     </script>
+  </body>
+</html>
 ```
 
 If you have any questions or need support, feel free to contact us here: https://help.omnigage.com/
